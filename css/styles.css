@@ -3,3 +3,22 @@ body {
   background: url(https://bit.ly/363tnZx) no-repeat center center/cover;
   height: 100vh;
 }
+.jumbotron {
+  color: brown;
+  text-align: center;
+  border-radius: 50%;
+  background: chocolate;
+}
+form {
+  width: 30%;
+}
+input[type="text"],
+input[type="number"] {
+  display: block;
+  margin-top: 20px;
+  width: 50%;
+}
+
+input[type="radio"] {
+  margin-top: 20px;
+}
