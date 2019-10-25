@@ -14,19 +14,44 @@
           <h1>The Akan Name Generator!</h1>
         </header>
       </div>
-      <div>
+      <div id="introduction">
         <p>
           Hello there!This is a web application that takes your birthday details
           and based on your gender it generates your
           <strong>Akan name</strong> that corresponds with your birthday.In
-          Ghana <em>children</em>are given their first name as a 'day name'which
-          corresponds to the day of the week they were born.
+          Ghana <em>children</em> are given their first name as a 'day name'
+          which corresponds to the day of the week they were born.
         </p>
         <p>
-          To find out your Akan name,kindly fill the form and click
-          <strong>generate name</strong>button to display your Akan name.Lets
+          To find out your Akan name,kindly fill the form below and click
+          <strong>generate name</strong> button to display your Akan name.Lets
           explore Ghanian names
         </p>
+      </div>
+      <div id="forms">
+        <form action="">
+          <input
+            type="number"
+            placeholder="Day of birth"
+            min="1"
+            max="7"
+            id="day"
+          />
+          <input
+            type="number"
+            placeholder="Month born"
+            min="1"
+            max="12"
+            id="month"
+          />
+          <input
+            type="text"
+            placeholder="Year born"
+            min="1890"
+            max="2050"
+            id="year"
+          />
+        </form>
       </div>
     </div>
   </body>
