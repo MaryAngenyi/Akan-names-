@@ -11,7 +11,7 @@ submit.addEventListener("click", function() {
     "Saturday"
   ];
   var malesNames = [
-    "Kwasi",
+    "Kwasi(",
     "Kwadwo",
     "Kwabena",
     "Kwaku",
@@ -36,6 +36,7 @@ submit.addEventListener("click", function() {
   var dayOfWeek=date.getDay();
   var male = document.getElementById("male");
   var female = document.getElementById("female");
+  var result= document.getElementById("display");
 
   if(day <1 || day >31){
     alert("incorrect date");
@@ -46,6 +47,6 @@ submit.addEventListener("click", function() {
    else if(year.toString().length !== 4){
      alert("incorrect year");
    }
-   else if
+   
   
 });

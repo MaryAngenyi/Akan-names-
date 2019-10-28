@@ -28,10 +28,7 @@ p {
   font-size: 30px;
 }
 #submit {
-  background: green;
-  color: black;
-  width: 50%;
-  text-align: center;
+  background: yellow;
 }
 #male {
   font-weight: 20px;
