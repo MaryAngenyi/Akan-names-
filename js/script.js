@@ -26,4 +26,6 @@ var femaleAkanNames = [
   "Afua",
   "Ama"
 ];
-var dd = parseInt(document.getElementById("day").value);
+var day = parseInt(document.getElementById("day").value);
+var month = parseInt(document.getElementById("month").value);
+var year = parseInt(document.getElementById("year").value);
