@@ -20,9 +20,8 @@ Here are the features of the application:
 
 ## Set-up instructions
 
-<img src="img/akan.jpg">
 - To get the application login to git hub and search MaryAngenyi/akan-names.
--Enter your date of birth.
+  -Enter your date of birth.
 - Enter month of birth .
 - Enter year of birth.
 - Then click the submit button to get your Akan name.
@@ -42,6 +41,8 @@ You are feel to provide any form of feedback,for any feedback call 0734534556 or
 ## BDD
 
 When you have entered your birthday details your akan name will pop on your screen.
+
+<img src="img/akan.jpg">
 
 ## License and Copyright information
 
