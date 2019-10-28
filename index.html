@@ -34,7 +34,7 @@
             type="number"
             placeholder="date of birth"
             min="1"
-            max="7"
+            max="31"
             id="date"
           />
           <input
@@ -48,12 +48,14 @@
             type="text"
             placeholder="Year born"
             min="1890"
-            max="2050"
+            max="2019"
             id="year"
           />
-          <input type="radio" name="Gender" id="male" />Male
-          <input type="radio" name="Genger" id="female" />Female
-          <input type="text" placeholder="Submit" id="submit" />
+          <label for="male">Male</label>
+          <input type="radio" name="Gender" id="male" /><br />
+          <label for="female">Female</label>
+          <input type="radio" name="Genger" id="female" /><br />
+          <button type="submit" value="submit">Submit</button>
         </form>
       </div>
     </div>
