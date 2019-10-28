@@ -27,14 +27,9 @@ input[type="radio"] {
 p {
   font-size: 30px;
 }
-#submit{
+#submit {
   background: blue;
   color: black;
   width: 20%;
   text-align: center;
-  
 }
-
-}
-
-
