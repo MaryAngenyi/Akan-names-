@@ -1,6 +1,6 @@
 var submit = document.getElementById("submit");
 
- submit.addEventListener("click", function() {
+submit.addEventListener("click", function() {
   var dayOfWeek = [
     "Sunday",
     "Monday",
@@ -8,7 +8,7 @@ var submit = document.getElementById("submit");
     "wednesday",
     "Thursday",
     "Friday",
-    "saturday"
+    "Saturday"
   ];
   var malesNames = [
     "Kwasi",
@@ -28,4 +28,11 @@ var submit = document.getElementById("submit");
     "Yaa",
     "Afua",
     "Ama"
-  ]
+  ];
+  var date = document.getElementById("date").value;
+  var month = document.getElementById("month").value;
+  var year = document.getElementById("year").value;
+  var male = document.getElementById("male")
+  var female = document.getElementById("female")
+  
+});

@@ -28,8 +28,14 @@ p {
   font-size: 30px;
 }
 #submit {
-  background: maroon;
+  background: green;
   color: black;
-  width: 20%;
+  width: 50%;
   text-align: center;
+}
+#male {
+  font-weight: 20px;
+}
+#female {
+  font-weight: 20px;
 }
