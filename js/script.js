@@ -41,7 +41,11 @@ submit.addEventListener("click", function() {
     alert("incorrect date");
   }
    else if(month<1 || month >12){
-     alert("incorrect month")
+     alert("incorrect month");
    }
+   else if(year.toString().length !== 4){
+     alert("incorrect year");
+   }
+   else if
   
 });
