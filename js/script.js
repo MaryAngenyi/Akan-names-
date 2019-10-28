@@ -29,10 +29,19 @@ submit.addEventListener("click", function() {
     "Afua",
     "Ama"
   ];
-  var date = document.getElementById("date").value;
+  var day = document.getElementById("date").value;
   var month = document.getElementById("month").value;
   var year = document.getElementById("year").value;
-  var male = document.getElementById("male")
-  var female = document.getElementById("female")
+  var date= new Date(year + "-" + month + "-" + date + "-");
+  var dayOfWeek=date.getDay();
+  var male = document.getElementById("male");
+  var female = document.getElementById("female");
+
+  if(day <1 || day >31){
+    alert("incorrect date");
+  }
+   else if(month<1 || month >12){
+     alert("incorrect month")
+   }
   
 });
