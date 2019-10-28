@@ -20,7 +20,12 @@ Here are the features of the application:
 
 ## Set-up instructions
 
-To get the application login to git hub and search MaryAngenyi/akan-names-
+<img src="img/akan.jpg">
+- To get the application login to git hub and search MaryAngenyi/akan-names.
+-Enter your date of birth.
+- Enter month of birth .
+- Enter year of birth.
+- Then click the submit button to get your Akan name.
 
 ## Technology used
 

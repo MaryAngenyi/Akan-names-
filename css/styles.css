@@ -29,7 +29,7 @@ p {
   font-size: 30px;
 }
 #submit {
-  background: yellow;
+  background: lightseagreen;
 }
 #male {
   font-weight: 20px;
@@ -39,5 +39,11 @@ p {
 }
 label {
   color: black;
-  font-weight: 900;
+  font-weight: bold;
+}
+p {
+  font-style: oblique;
+}
+#display {
+  color: purple;
 }
