@@ -32,21 +32,23 @@ submit.addEventListener("click", function() {
   var day = document.getElementById("date").value;
   var month = document.getElementById("month").value;
   var year = document.getElementById("year").value;
-  var date= new Date(year + "-" + month + "-" + date + "-");
-  var dayOfWeek=date.getDay();
+  var date = new Date(year + "-" + month + "-" + day);
+  var dayBorn = date.getDay();
   var male = document.getElementById("male");
   var female = document.getElementById("female");
-  var result= document.getElementById("display");
+  var result = document.getElementById("display");
 
-  if(day <1 || day >31){
+  console.log(date);
+
+  if (day < 1 || day > 31) {
     alert("incorrect date");
+  } else if (month < 1 || month > 12) {
+    alert("incorrect month");
+  } else if (year.toString().length !== 4) {
+    alert("incorrect year");
+  } else if (male.checked) {
+    result.innerHTML = "Hello, your Akan name is " + malesNames[dayBorn];
+  } else {
+    result.innerHTML = "Hello,your Akan name is " + femalesNames[dayBorn];
   }
-   else if(month<1 || month >12){
-     alert("incorrect month");
-   }
-   else if(year.toString().length !== 4){
-     alert("incorrect year");
-   }
-   
-  
 });

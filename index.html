@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container text-centre">
       <div>
-        <header class="jumbotron">
+        <header class="jumbotron-fluid">
           <h1>The Akan Name Generator!</h1>
         </header>
       </div>
@@ -31,6 +31,7 @@
       </div>
       <div id="forms">
         <form action="">
+          <label for="">Date</label>
           <input
             type="number"
             placeholder="date of birth"
@@ -38,6 +39,7 @@
             max="31"
             id="date"
           />
+          <label for="">Month</label>
           <input
             type="number"
             placeholder="Month born"
@@ -45,6 +47,7 @@
             max="12"
             id="month"
           />
+          <label for="">Year</label>
           <input
             type="number"
             placeholder="Year born"
@@ -53,7 +56,7 @@
             id="year"
           />
           <label for="male">Male</label>
-          <input type="radio" name="Gender" id="male" /><br />
+          <input type="radio" name="Gender" id="male" checked /><br />
           <label for="female">Female</label>
           <input type="radio" name="Gender" id="female" /><br />
           <a href="#" id="submit">Submit</a>

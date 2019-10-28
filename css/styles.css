@@ -3,12 +3,13 @@ body {
   background: url(https://bit.ly/363tnZx) no-repeat center center/cover;
   height: 120vh;
 }
-.jumbotron {
+.jumbotron-fluid {
   color: black;
   text-align: center;
-  border-radius: 50%;
+
   background: chocolate;
   font-style: oblique;
+  width: fit-content;
 }
 form {
   width: 50%;
@@ -35,4 +36,8 @@ p {
 }
 #female {
   font-weight: 20px;
+}
+label {
+  color: rgb(38, 223, 31);
+  font-weight: 900;
 }
