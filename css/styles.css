@@ -8,6 +8,7 @@ body {
   text-align: center;
   border-radius: 50%;
   background: chocolate;
+  font-style: oblique;
 }
 form {
   width: 50%;
@@ -26,9 +27,12 @@ input[type="radio"] {
 p {
   font-size: 30px;
 }
-#generate {
+#submit{
   background: blue;
   color: black;
+  width: 20%;
+  text-align: center;
+  
 }
 
 }
